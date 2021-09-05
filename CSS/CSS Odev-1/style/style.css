@@ -1,0 +1,103 @@
+/***** Genel CSS *****/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+    background-color: #E8D0B3;
+    margin: 0 auto;
+}
+
+.baslik {
+    text-align: center;
+    font-size: 3em;
+    margin: 0.3em auto;
+    color: #86340A;
+}
+
+.menu {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    background-color: #C36839;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #E8D0B3;
+}
+
+a:hover {
+    color: #86340A;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/***** Anasayfa CSS *****/
+
+.modeller h3 {
+    text-align: left;
+    margin: 0.3em;
+    color: #822727;
+}
+
+.modeller {
+    text-decoration: none;
+    list-style: none;
+    width: 11em;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.modeller li {
+    text-align: left;
+    padding-left: 1.3em;
+}
+
+
+/***** Contact CSS *****/
+
+.contact {
+    list-style-type: none;
+    width: 11em;
+    margin: 0 auto;
+    text-align: left;
+}
+
+i {
+    font-size: 1.2em;
+    margin: 5px;
+    color: #86340A;
+}
+
+.contact a {
+    color: #86340A;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+/***** Ürünler CSS *****/
+
+.urun {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.urun .img {
+    margin: 20px;
+    width: 90%;
+}
