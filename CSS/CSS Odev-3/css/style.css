@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/****** Logo ******/
+
+#logo {
+    margin: 0 auto;
+    width: 351px;
+}
+
+
+/****** Main *******/
