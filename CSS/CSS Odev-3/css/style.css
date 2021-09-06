@@ -12,3 +12,82 @@
 
 
 /****** Main *******/
+
+#search {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+#search-input {
+    width: 280px;
+}
+
+#search #sentence {
+    margin: 0;
+}
+
+
+/****** Footer ******/
+
+#footer {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+#col-1,
+#col-2,
+#col-3 {
+    margin: 1px;
+}
+
+#col-1 {
+    width: 37%;
+    font-size: 16px;
+    padding-top: 5px;
+    background-color: #7EE5DA;
+}
+
+#col-2 {
+    padding-top: 5px;
+    width: 20%;
+    font-size: 12px;
+    background-color: #70ccc2;
+}
+
+#col-3 {
+    width: 43%;
+    font-size: 12px;
+    background-color: #62B3AA;
+}
+
+#footer>ul,
+li,
+p,
+input,
+button,
+a {
+    margin: 0;
+    list-style-type: none;
+}
+
+#subdiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#subdiv>p {
+    font-size: 14px;
+    margin: 2px 0 0 8px;
+}
+
+ul li::before {
+    content: "\200B";
+}
