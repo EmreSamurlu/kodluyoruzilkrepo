@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Proje ile ilgili notlar -->
+<!-- Tarih: 11.09.2021 -->
+<!-- Projeyi yaptığım sırada güncel Medium web sitesine göre düzenlemeler yaptım. -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- STYLE -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/medium.css">
-
     <title>Medium</title>
 </head>
 
 <body>
     <!-- NAVBAR - Start -->
-    <div style="background-color: #FFC017; border-bottom: 1px solid rgba(41, 41, 41, 1);">
+    <div class="bg-new border-bottom-dark">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">
-                    <img src="img/medium-logo.png" width="160" alt="Medium Logo">
+            <nav class="navbar navbar-expand-lg navbar-light py-2">
+                <a class="navbar-brand ml-n5" href="#">
+                    <img src="img/medium-logo-2.png" width="170" alt="Medium Logo" class="ml-n3">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <div class="collapse navbar-collapse mr-n5 " id="navbarNav">
+                    <ul class="navbar-nav ml-auto ">
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Our Story</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Story</a>
+                            <a class="nav-link text-dark" href="#">Membership</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Membership</a>
+                            <a class="nav-link text-dark" href="#">Write</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Write</a>
+                            <a class="nav-link text-dark" href="#">Sign In</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sign In</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-dark text-light" href="#">Get Started</a>
+                            <a class="nav-link btn btn-dark text-light rounded-pill ml-2" href="#">Get Started</a>
                         </li>
 
                     </ul>
@@ -51,16 +53,179 @@
         </div>
     </div>
     <!-- NAVBAR - End -->
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-                Lorem, ipsum dolor.
-            </div>
-            <div class="col-6">
-                görsel
+    <!-- HEADER - Start -->
+    <div class="bg-new py-4 border-bottom-dark">
+        <div class="container ">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="display-3 ml-n5">Medium is a place to write, read, and connect</h1>
+                    <p class="ml-n5 lead">It's easy and free to post your thinking on any topic and <br> connect with millions of readers.</p>
+                    <a href="#" class="btn rounded-pill bg-light border-dark ml-n5">Start Writing</a>
+                </div>
+                <div class="col-6 ">
+                    <img src="https://picsum.photos/id/50/400/400" alt="picture" class="rounded-circle float-right mr-n2">
+                </div>
             </div>
         </div>
     </div>
+    <!-- HEADER - End -->
+
+    <!-- TRENDS - Start -->
+    <div class="container mt-5 ">
+        <div class="row mx-n5">
+            <div class="col-12">
+                <h6><i class="fas fa-chart-line"></i> <small>TRENDING ON MEDIUM</small></h6>
+            </div>
+
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-1">
+                        <h6 class="text-black-50 lead font-weight-bold">
+                            01
+                        </h6>
+                    </div>
+                    <div class="col-11">
+                        <img src="https://picsum.photos/id/5/25/25" alt="" class="rounded-circle">
+                        <span class="small ml-1">Will Leitch</span>
+                        <h6 class="mt-2">
+                            <strong>Confessions of a Pandemic Risk-Taker</strong>
+                        </h6>
+                        <ul class="list-inline small text-black-50">
+                            <li class="list-inline-item">Dec 1.</li>
+                            <li class="list-inline-item">6 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-1">
+                        <h6 class="text-black-50 lead font-weight-bold">
+                            02
+                        </h6>
+                    </div>
+                    <div class="col-11">
+                        <img src="https://picsum.photos/id/18/25/25" alt="" class="rounded-circle">
+                        <span class="small ml-1">
+                            Chris Sells
+                            <small class="text-muted">in</small>
+                            Flutter</span>
+                        <h6 class="mt-2">
+                            <strong>What’s new in Flutter 2.5</strong>
+                        </h6>
+                        <ul class="list-inline small text-black-50">
+                            <li class="list-inline-item">Sep 8.</li>
+                            <li class="list-inline-item">18 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-1">
+                        <h6 class="text-black-50 lead font-weight-bold">
+                            03
+                        </h6>
+                    </div>
+                    <div class="col-11">
+                        <img src="https://picsum.photos/id/38/25/25" alt="" class="rounded-circle">
+                        <span class="small ml-1">
+                            SundaeSwap Labs
+                        </span>
+                        <h6 class="mt-2">
+                            <strong>Concurrency, State, & Cardano.</strong>
+                        </h6>
+                        <ul class="list-inline small text-black-50">
+                            <li class="list-inline-item">Sep 5.</li>
+                            <li class="list-inline-item">14 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-1">
+                        <h6 class="text-black-50 lead font-weight-bold">
+                            04
+                        </h6>
+                    </div>
+                    <div class="col-11">
+                        <img src="https://picsum.photos/id/59/25/25" alt="" class="rounded-circle">
+                        <span class="small ml-1">
+                            Daniel Ganninger
+                            
+                            <small class="text-muted">in</small>
+                            Knowledge Stew</span>
+                        <h6 class="mt-2">
+                            <strong>Why Is There a Tiny Pocket Above the Front Pocket on Jeans?</strong>
+                        </h6>
+                        <ul class="list-inline small text-black-50">
+                            <li class="list-inline-item">Sep 5.</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-1">
+                        <h6 class="text-black-50 lead font-weight-bold">
+                            05
+                        </h6>
+                    </div>
+                    <div class="col-11">
+                        <img src="https://picsum.photos/id/60/25/25" alt="" class="rounded-circle">
+                        <span class="small ml-1">
+                            
+                        Fredrick Brennan
+                        </span>
+                        <h6 class="mt-2">
+                            <strong>“Emojibake” are considered harmful</strong>
+                        </h6>
+                        <ul class="list-inline small text-black-50">
+                            <li class="list-inline-item">Sep 3.</li>
+                            <li class="list-inline-item">15 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-1">
+                        <h6 class="text-black-50 lead font-weight-bold">
+                            06
+                        </h6>
+                    </div>
+                    <div class="col-11">
+                        <img src="https://picsum.photos/id/18/25/25" alt="" class="rounded-circle">
+                        <span class="small ml-1">
+                            MartinEdic</span>
+                        <h6 class="mt-2">
+                            <strong>Repuclicians</strong>
+                        </h6>
+                        <ul class="list-inline small text-black-50">
+                            <li class="list-inline-item">Sep 1.</li>
+                            <li class="list-inline-item">5 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </div>
+    <!-- TRENDS - End -->
+
 
     <!-- Scriptler -->
     <script src="js/jquery-3.5.1.slim.min.js"></script>
