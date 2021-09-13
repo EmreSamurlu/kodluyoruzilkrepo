@@ -12,80 +12,90 @@
 
 <body class="body">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbarbg fixed-top text-center pl-5">
-        <a class="navbar-brand ml-5" href="#"><i
-          class="fab fa-linkedin fa-lg ml-5"
-          style="color: #0a66c2; font-size: 2.3rem"
-        ></i
-      ></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
-        <form class="form-inline ml-1">
-            <div class="form-control searche border-0">
-                <i class="fas fa-search"></i>
-                <input class="border-0 ml-5" type="search" placeholder="Arama Yap" aria-label="Search" />
+    <div class="container ">
+        <nav class="row justify-content-start navbar navbar-expand-lg navbar-light bg-light navbarbg fixed-top text-center ">
+            <div class="col-1 offset-2">
+                <a class="navbar-brand" href="#">
+                    <i class="fab fa-linkedin fa-lg" style="color: #0a66c2; font-size: 2.3rem"></i>
+                </a>
             </div>
+            <div class="col-2 ml-n5">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+                <form class="form-inline ml-1">
+                    <div class="form-control searche border-0">
+                        <i class="fas fa-search"></i>
+                        <input class="border-0" type="search" placeholder="Arama Yap" aria-label="Search" />
+                    </div>
 
-        </form>
-        <div class="collapse navbar-collapse ml-5">
-            <ul class="navbar-nav mt-1 mr-auto ml-5">
-                <li class="nav-item active mr-3">
-                    <a class="nav-link" href="#"><i class="fas fa-home fa-lg" style="color: black">
-                <div class="menutext" style="color: black">Ana Sayfa</div></i
-              >
-            </a>
-                </li>
-                <li class="nav-item active mr-4">
-                    <a class="nav-link" href="#"><i class="fas fa-user-friends fa-lg">
-                <div class="menutext">Ağım</div></i
-              >
-            </a>
-                </li>
-                <li class="nav-item active mr-2">
-                    <a class="nav-link" href="#"><i class="fas fa-briefcase fa-lg">
-                <div class="menutext">İş İlanları</div></i
-              >
-            </a>
-                </li>
-                <li class="nav-item active mr-1">
-                    <a class="nav-link" href="#"><i class="fas fa-comment-dots fa-lg">
-                <div class="menutext">Mesajlaşma</div></i
-              >
-            </a>
-                </li>
-                <li class="nav-item active mr-1">
-                    <a class="nav-link" href="#"><i class="fas fa-bell fa-lg">
-                <div class="menutext">Bildirimler</div></i>
-            </a>
-                </li>
-                <li class="nav-item dropdown mr-5 ml-2">
-                    <a class="nav-link d-flex flex-column " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="rounded-circle" src="https://picsum.photos/id/100/25/25" />
-                        <i class="fas fa-lg mt-n1">
-                          <div class="menutext">
-                            Ben
-                        </div>
-                        </i>
-                    </a>
-                </li>
-                <li class="nav-item active border-left">
-                    <a class="nav-link ml-5 mr-5" href="#"><i class="fas fa-th fa-lg"> <div class="menutext">İş</div></i>
-            </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link " href="#"><i class="fas fa-chalkboard fa-lg">
-                <div class="menutext">İş İlanı Yayınla</div></i
-              >
-            </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+                </form>
+
+            </div>
+            <div class="col-8">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mt-1">
+                        <li class="nav-item active ml-4 mr-4">
+                            <a class="nav-link" href="#"><i class="fas fa-home fa-lg" style="color: black">
+                          <div class="menutext" style="color: black">Ana Sayfa</div></i
+                        >
+                      </a>
+                        </li>
+                        <li class="nav-item active mr-4">
+                            <a class="nav-link" href="#"><i class="fas fa-user-friends fa-lg">
+                          <div class="menutext">Ağım</div></i
+                        >
+                      </a>
+                        </li>
+                        <li class="nav-item active mr-4">
+                            <a class="nav-link" href="#"><i class="fas fa-briefcase fa-lg">
+                          <div class="menutext">İş İlanları</div></i
+                        >
+                      </a>
+                        </li>
+                        <li class="nav-item active mr-4">
+                            <a class="nav-link" href="#"><i class="fas fa-comment-dots fa-lg">
+                          <div class="menutext">Mesajlaşma</div></i
+                        >
+                      </a>
+                        </li>
+                        <li class="nav-item active mr-2">
+                            <a class="nav-link" href="#"><i class="fas fa-bell fa-lg">
+                          <div class="menutext">Bildirimler</div></i>
+                      </a>
+                        </li>
+                        <li class="nav-item dropdown mr-4">
+                            <a class="nav-link d-flex flex-column " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded-circle" src="https://picsum.photos/id/100/25/25" />
+                                <i class="fas fa-lg mt-0">
+                                    <div class="menutext">
+                                      Ben
+                                  </div>
+                                  </i>
+                            </a>
+                        </li>
+                        <li class="nav-item active border-left px-3">
+                            <a class="nav-link" href="#"><i class="fas fa-th fa-lg"> <div class="menutext">İş</div></i>
+                      </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link " href="#"><i class="fas fa-chalkboard fa-lg">
+                          <div class="menutext">İş İlanı Yayınla</div></i
+                        >
+                      </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+
     <div class="container mt-5">
-        <div class="row">
+        <div class="row ">
             <!-- sol panel -->
-            <div class="col-3 mt-2">
+            <div class="col-2 mt-2 px-1">
                 <!-- sol panel -->
-                <div class="card mt-1">
+                <div class="card">
                     <div class="card-header d-flex justify-content-center" style="border-radius: 10px 10px 0 0;
                 background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg);
                 height: 53px;">
@@ -93,10 +103,10 @@
                     </div>
                     <div class="card-body">
                         <p class="card-title header mt-5 text-center">
-                            <a href="https://www.linkedin.com/in/cengizcmataraci/" target="_blank" style="color: #212529;">Cengiz Cemal Mataracı</a>
+                            <a href="https://www.linkedin.com/in/emre-samurlu/" target="_blank" style="color: #212529;">Emre Samurlu</a>
                         </p>
                         <div class="text-muted small text-center mt-n1">
-                            Software Developer at Navlungo - Dijital Lojistik Platformu
+                            Çevre Mühendisi - Patika.dev Öğrencisi
                         </div>
                         <hr>
 
@@ -157,7 +167,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mt-2 sticky-top overflow-auto" style="top: 70px;">
+                <div class="card mt-2 sticky-top overflow-auto" style="top: 4rem;">
                     <div class="card-header bg-white border-0 mb-n3" style="font-size: 12px">
                         En Yeni
                     </div>
@@ -256,9 +266,7 @@
         </div>
 
         <!-- orta panel -->
-        <div
-          class="col-6 mt-2"
-        >
+        <div class="col-6 mt-2 mr-n2 ">
           <div class="card">
             <div class="card-body">
               <input
@@ -266,8 +274,8 @@
                 class="form-control content"
                 placeholder="Bir gönderi başlat"
               />
-              <span>
-                <button class="mediatext btn btn-light mt-2 mr-3">
+              <span> 
+                <button class="mediatext btn btn-light ml-2 mt-2 mr-3">
                   <svg style="fill:#70B5F9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" focusable="false">
   <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"></path>
 </svg><span class="ml-1 mediatext">Fotoğraf</span>
@@ -418,7 +426,7 @@
             <div class="card mt-2">
                 <div class="card-body">
 
-                    <div class="d-flex justify-content-lg-between">
+                    <div class="d-flex justify-content-between">
                         <div class="d-flex align-items-center my-n2">
                             <img src="https://www.germanamericanconference.org/wp-content/uploads/2017/03/malan6.jpg" class="postphoto ">
                             <div class="d-flex flex-column ml-2 ">
@@ -474,131 +482,154 @@
         </div>
 
         <!-- sağ panel -->
-        <div class="col-3 mt-2">
+        <div class="col-4 mt-2">
+            <!-- Card Top - Start-->
             <div class="card">
                 <div class="card-header bg-white border-0 mt-1">
-                    <span>Akışınıza ekleyin</span
-              ><span><i class="fas fa-info-circle float-right"></i></span>
+                    <span>Akışınıza ekleyin</span>
+                    <span><i class="fas fa-info-circle float-right"></i></span>
+                </div>
+                <!-- Item-1 -->
+                <div class="card-title d-flex ">
+                    <div class="ml-3 d-flex align-items-center">
+                        <img src="https://miro.medium.com/max/3150/2*E_Znc5hBy-MFRDMBF9Jp6A.png" class="rounded-circle align-top" width="50" />
+                        <div class="d-flex flex-column align-bottom ml-2">
+                            <div class="header ml-1 " style="font-size: 14px">Codecraft</div>
+                            <span class="float-right mr-3 mt-2"><button class="btn btn-outline-secondary rounded-pill">
+                    <strong>+ Takip Et</strong>
+                  </button></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item-2 -->
+                <div class="card-title d-flex ">
+                    <div class="ml-3 d-flex align-items-center">
+                        <img src="https://pbs.twimg.com/profile_images/1347486915784830978/pUN5K_jL.jpg" class="rounded-circle align-top" width="50" />
+                        <div class="d-flex flex-column align-bottom ml-2">
+                            <div class="header ml-1" style="font-size: 14px">Podfresh</div>
+                            <span class="float-right mr-3 mt-2">
+                  <button class="btn btn-outline-secondary rounded-pill">
+                    <strong>+ Takip Et</strong>
+                  </button></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item-3 -->
+                <div class="card-title d-flex">
+                    <div class="ml-3 d-flex align-items-center">
+                        <img src="https://startupmarket.co/cache/300x300/upload/images/startup/5c8f634e1c306001399941.jpg" class="rounded-circle" width="50" />
+                        <div class="d-flex flex-column align-bottom ml-2">
+                            <div class="header ml-1" style="font-size: 14px">Navlungo</div>
+                            <span class="float-right mr-3 mt-2">
+                  <button class="btn btn-outline-secondary rounded-pill">
+                    <strong>+ Takip Et</strong>
+                  </button></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Top - Footer -->
+                <div class="card-footer bg-white border-0 mb-2" style="font-size: 14px; color: #0a66c2">
+                    <strong></strong>
+                </div>
+            </div>
+            <!-- Card Top - End -->
+
+            <div class="card mt-3 ">
+                <div class="card-header bg-white border-0 mt-1">
+                    <span>Bugünün en çok izlenen eğitimleri</span>
+                    <span><i class="fas fa-info-circle float-right"></i></span>
                 </div>
                 <div class="card-title">
-                    <div class="ml-3">
-                        <img src="https://miro.medium.com/max/3150/2*E_Znc5hBy-MFRDMBF9Jp6A.png" class="rounded-circle" width="50" />
-                        <div class="header ml-1" style="font-size: 14px">Codecraft</div>
-                        <span class="float-right mr-3 mt-2"><button class="btn btn-outline-secondary rounded-pill">
-                    <strong>+ Takip Et</strong>
-                  </button></span
-                >
-              </div>
-            </div>
-            <div class="card-title">
-              <div class="ml-3">
-                <img src="https://pbs.twimg.com/profile_images/1347486915784830978/pUN5K_jL.jpg" class="rounded-circle" width="50" />
-                <div class="header ml-1" style="font-size: 14px">Podfresh</div>
-                <span class="float-right mr-3 mt-2">
-                  <button class="btn btn-outline-secondary rounded-pill">
-                    <strong>+ Takip Et</strong>
-                  </button></span
-                >
-              </div>
-            </div>
-            <div class="card-title">
-              <div class="ml-3">
-                <img
-                  src="https://startupmarket.co/cache/300x300/upload/images/startup/5c8f634e1c306001399941.jpg" class="rounded-circle" width="50"/>
-                <div class="header ml-1" style="font-size: 14px">Navlungo</div>
-                <span class="float-right mr-3 mt-2">
-                  <button class="btn btn-outline-secondary rounded-pill">
-                    <strong>+ Takip Et</strong>
-                  </button></span
-                >
-              </div>
-            </div>
-            <div
-              class="card-footer bg-white border-0"
-              style="font-size: 14px; color: #0a66c2"
-            >
-              <strong></strong>
-            </div>
-          </div>
-          <div class="card mt-2">
-            <div class="card-header bg-white border-0">
-              <span>Bugünün en çok izlenen eğitimleri</span>
-                        <span><i class="fas fa-info-circle float-right"></i></span>
-                    </div>
-                    <div class="card-title">
-                        <ol>
-                            <li>
-                                The Six Morning Habits of High Perf...
-                                <div style="
+                    <ol>
+                        <li>
+                            The Six Morning Habits of High Perf...
+                            <div style="
                       font-weight: lighter;
                       font-size: 13px;
                       color: #5f5f5f;
                     ">
-                                    Pete Mocakatais | How to be awesome at you...
-                                </div>
-                            </li>
-                            <li class="mt-2">
-                                Onconscious Blas
-                                <div style="
+                                Pete Mocakatais | How to be awesome at you...
+                            </div>
+                        </li>
+                        <li class="mt-2">
+                            Onconscious Blas
+                            <div style="
                       font-weight: lighter;
                       font-size: 13px;
                       color: #5f5f5f;
                     ">
-                                    Stacey Gordon
-                                </div>
-                            </li>
-                            <li class="mt-2">
-                                Critical Thinking for Better Judgme...
-                                <div style="
+                                Stacey Gordon
+                            </div>
+                        </li>
+                        <li class="mt-2">
+                            Critical Thinking for Better Judgme...
+                            <div style="
                       font-weight: lighter;
                       font-size: 13px;
                       color: #5f5f5f;
                     ">
-                                    Becki Saltzman
-                                </div>
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="card-footer" style="color: #0a66c2; font-size: 15px; margin-top: -25px">
-                        Linkedin Learning'de daha fazlasını göster
-                    </div>
+                                Becki Saltzman
+                            </div>
+                        </li>
+                    </ol>
                 </div>
-                <div class="text-center mt-3 ml-3">
-                    <div><a href="https://about.linkedin.com/" class="link mr-3">Hakkında</a
-              ></div
-            >
-            <div
-              ><a
-                href="https://www.linkedin.com/accessibility?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.accessibility"
-                class="link mr-3"
-                >Erişilebilirlik</a
-              ></div
-            >
-            <div
-              ><a
-                href="https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.help"
-                class="link"
-                >Yardım Merkezi</a
-              ></div
-            >
-            <div><a href="" class="link mr-3">Gizlilik ve Koşullar</a></div>
-                    <div><a href="https://www.linkedin.com/help/linkedin/answer/62931?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.ad_choices" class="link">Reklam Tercihleri</a
-              ></div
-            >
-            <div
-              ><a
-                href="https://www.linkedin.com/ad/start?trk=n_nav_ads_rr&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.advertising"
-                class="link"
-                >Reklam</a
-              ></div
-            >
-            <div class="text-center" style="margin-top: 10px">
-              <img
-                src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg"
-                width="90px"
-                height="20px"
-              /><span style="font-size: 12px; margin-left: -15px"
-                >Linkedin Corporation © 2021</span
+                <div class="card-footer" style="color: #0a66c2; font-size: 15px; margin-top: -25px">
+                    Linkedin Learning'de daha fazlasını göster
+                </div>
+            </div>
+            <div class="text-center mt-3 ml-3 sticky-top overflow-auto " style="top: 4rem;">
+                <ul class="list-inline aside-buttons">
+
+                    <li class="list-inline-item">
+                        <div>
+                            <a href="https://about.linkedin.com/" class="link mr-3">Hakkında</a>
+                        </div>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <div>
+                            <a href="https://www.linkedin.com/accessibility?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.accessibility" class="link mr-3">Erişilebilirlik
+                </a>
+                        </div>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <div>
+                            <a href="https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.help" class="link">Yardım Merkezi
+                </a>
+                        </div>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <div>
+                            <a href="" class="link mr-3">Gizlilik ve Koşullar</a>
+                        </div>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <div>
+                            <a href="https://www.linkedin.com/help/linkedin/answer/62931?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.ad_choices" class="link">Reklam Tercihleri
+                    </a>
+                        </div>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <div>
+                            <a href="https://www.linkedin.com/ad/start?trk=n_nav_ads_rr&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.advertising" class="link">Reklam
+                </a>
+                        </div>
+                    </li>
+
+                </ul>
+
+
+
+
+
+
+
+                <div class="text-center" style="margin-top: 10px">
+                    <img src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg" width="90px" height="20px" /><span style="font-size: 12px; margin-left: -15px">Linkedin Corporation © 2021</span
               >
             </div>
           </div>
@@ -608,19 +639,16 @@
   </div>
     <!-- mesajlaşma -->
     <nav
-      class="navbar navbar-expand-xl navbar-light bg-dark position-sticky fixed-bottom border"
-      style="height: 50px; position: -webkit-sticky; border-radius: 5px; margin-left: auto; right: 15px;"
+      class="navbar navbar-expand-xl navbar-light bg-white position-sticky fixed-bottom border"
+      style="height: 50px;width: 300px; position: -webkit-sticky; border-radius: 5px; margin-left: auto; right: 15px;"
     >
-      <a class="navbar-brand" href="#"
-        ><img
-          src="https://media-exp1.licdn.com/dms/image/C4D03AQFpMjVJ_N2wRQ/profile-displayphoto-shrink_100_100/0/1582787654653?e=1616630400&v=beta&t=C1X2NxhcN0R0GmELl1Ew7BeOoyGbwJXCw8c7lHm6XuA"
-          style="width: 30px; height: 30px; border-radius: 50%;"
-      /></a>
-                        <span style="font-size: 14px; font-weight: bold; font-family:Arial, Helvetica, sans-serif;"><strong>Mesajlaşma</strong></span>
-                        <span class="offset-3"><img src="/assets/edit-regular.svg" width="15px" height="15px" ></span>
-                        <span><i class="fas fa-ellipsis-h fa-sm ml-3"></i></span>
-                        <span><i class="fas fa-chevron-up fa-sm ml-3"></i></span>
-                        </nav>
+      <a class="navbar-brand" href="#"></a>
+      <i class="far fa-envelope fa-lg mr-3 ml-n2 mt-n1"  ></i></a>
+                    <span style="font-size: 14px; font-weight: bold; font-family:Arial, Helvetica, sans-serif;"><strong>Mesajlaşma</strong></span>
+                    <span class="offset-3"><img src="/assets/edit-regular.svg" width="15px" height="15px" ></span>
+                    <span><i class="fas fa-ellipsis-h fa-sm ml-3"></i></span>
+                    <span><i class="fas fa-chevron-up fa-sm ml-3"></i></span>
+                    </nav>
 </body>
 
 </html>
